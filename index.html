@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<title>Kalkulator Suhu</title>
+<body>
+
+<h2 style="font-family: Arial, Helvetica, sans-serif;">Kalkulator Suhu Celcius Fahrenheit</h2>
+<p style="font-family: Arial, Helvetica, sans-serif;">Masukkan suhu derajat Celsius (°C) atau Fahrenheit (°F) ke kotak dibawah</p>
+<p style="font-family: Arial, Helvetica, sans-serif;">Klik tombol Konversi ke Celsius untuk mendapatkan hasil konversi dalam bentuk Celsius(°C)</p>
+<p style="font-family: Arial, Helvetica, sans-serif;">Klik tombol Konversi ke Fahrenheit untuk mendapatkan hasil konversi dalam bentuk Fahrenheit(°F)</p>
+
+<p>
+  <label style="font-family:Arial, Helvetica, sans-serif ;">Celsius (°C):</label>
+  <p></p>
+  <input id="inputCelsius" type="number" placeholder="Celsius">
+</p>
+
+<p>
+    <button onclick="convertToFahrenheit()">Konversi ke Fahrenheit</button>
+    <button onclick="resetFields()">Reset</button>
+  </p>
+  
+
+<p>
+    <label style="font-family: Arial, Helvetica, sans-serif;">Fahrenheit (°F):</label>
+    <p></p>
+    <input id="inputFahrenheit" type="number" placeholder="Fahrenheit">
+  </p>
+
+<p>
+    <button onclick="convertToCelsius()">Konversi ke Celcius</button>
+</p>
+
+<p>
+<label style="font-family: Arial, Helvetica, sans-serif;">Cara Kalkulasi</label>
+<p></p>
+    <input id="calculationMethod" type="text" placeholder="Cara Kalkulasi" readonly>
+</p>
+
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
